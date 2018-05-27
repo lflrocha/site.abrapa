@@ -1,0 +1,342 @@
+@font-face {
+    font-family: Univers;
+    src: url('UniversLTStd.otf');
+}
+
+@font-face {
+    font-family: UniversLight;
+    src: url('UniversLTStd-Light.otf');
+}
+
+@font-face {
+    font-family: UniversBold;
+    src: url('UniversLTStd-Bold.otf');
+}
+
+@font-face {
+    font-family: HelveticaNeue;
+    src: url('HelveticaNeue.otf');
+}
+
+
+body {
+    font-family: Univers;
+    font-weight: normal;
+    font-size: 13px;
+    padding: 0px;
+    margin: 0px;
+}
+
+h2 {
+    color: #064d81;
+    font-size: 17px;
+    font-weight: normal;
+    text-align: center;
+    margin: 15px 0 0 0;
+    text-transform: uppercase;
+    font-family: UniversBold;
+}
+
+h4 {
+    color: #064d81;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: UniversBold;
+    margin: 5px 0;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#topo {
+    height: 105px;
+    float: left;
+}
+
+#conteudo {
+    min-height: 560px;
+    float: left;
+    width: 100%;
+}
+
+#rodape {
+    height: 80px;
+}
+
+/* TOPO */
+
+#topo .esquerda {
+    width: 200px;
+    height: 70px;
+    float: left;
+    padding-top: 10px;
+}
+
+#topo .direita {
+    width: 800px;
+    height: 80px;
+    float: right;
+}
+
+#logo {
+    width: 205px;
+    height: 65px;
+    margin-top: 1px;
+
+}
+
+#telefone {
+    width: 120px;
+    height: 20px;
+    background-color: #064d81;
+    border-radius: 0 0 8px 8px;
+    float: right;
+    clear:both;
+}
+
+#telefone a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 4px;
+    font-size: 10px;
+    font-family: UniversLight;
+}
+
+#telefone .texto-maior {
+    font-size: 12px;
+}
+
+#topo .linha-meio {
+    width: 770px;
+    float: right;
+    height: 20px;
+    margin-top: 30px;
+}
+
+#idioma {
+    float: right;
+    height: 20px;
+    margin-right: 20px;
+    margin-top: 4px;
+}
+
+#busca {
+    float: right;
+    height: 20px;
+}
+
+#busca img,
+#busca input {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#busca input {
+    border: 1px solid #e6e6e6;
+    background: linear-gradient(#DFDFDF, #FFFFFF);
+}
+
+#menu {
+    float: right;
+    clear:both;
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+#menu a {
+    color: #808080;
+    text-decoration: none;
+    padding-right: 11px;
+    font-size: 12.5px;
+    display: inline-block;
+}
+
+#menu a:last-child {
+    padding-right: 0px;
+}
+
+#menu a:hover {
+    color: #064d81;
+}
+
+
+
+/* RODAPE */
+
+footer {
+    color: #808080;
+    float: left;
+    font-size: 9px;
+    margin-top: 30px;
+}
+
+footer .esquerda {
+    width: 600px;
+    float:left;
+    padding: 10px 0 5px 0;
+}
+
+footer .direita {
+    width: 400px;
+    float: right;
+    text-align: right;
+    padding: 10px 0 5px 0;
+}
+
+footer a {
+    color: #808080;
+    text-decoration: none;
+}
+
+.barra-dourada {
+    float: left;
+    background-color: #C79E57;
+    height: 4px;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+/* COLUNA DA DIREITA - CONGRESSO */
+
+#coluna-direita .congresso {
+    width: 210;
+    height: 126px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    float: right;
+    position:relative;
+}
+
+#coluna-direita .congresso img {
+    border-radius: 5px;
+}
+
+
+
+/* COLUNA DA DIREITA - REDES SOCIAIS */
+
+#coluna-direita .redes-sociais {
+    width: 190px;
+    height: 60px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    float: right;
+    padding: 10px;
+    position:relative;
+}
+
+#coluna-direita .redes-sociais .titulo {
+    color: #666666;
+    font-family: UniversBold;
+    font-size: 12px;
+    margin: 0px 0px 2px 0px;
+}
+
+#coluna-direita .redes-sociais .logos {
+    width: 170px;
+    border-top: 1px solid #e6e6e6;
+    padding: 7px 10px;
+}
+
+#coluna-direita .redes-sociais img {
+    padding: 8px;
+}
+
+
+
+/* COLUNA DA DIREITA - NEWSLETTER */
+
+#coluna-direita .newsletter {
+    width: 190px;
+    height: 120px;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    float: right;
+    padding: 10px;
+    position:relative;
+    margin-bottom: 10px;
+
+}
+
+#coluna-direita .newsletter .titulo {
+    color: #666666;
+    font-family: UniversBold;
+    font-size: 12px;
+    margin: 0px 0px 2px 0px;
+}
+
+#coluna-direita .newsletter .formulario {
+    width: 190px;
+    border-top: 1px solid #e6e6e6;
+    font-size: 11px;
+    color: #808080;
+    text-align: center;
+}
+
+#coluna-direita .newsletter .formulario p {
+    text-align: left;
+    margin: 3px 0;
+}
+
+#coluna-direita .newsletter input[type=text] {
+    margin-bottom: 5px;
+    width: 180px;
+    font-size: 10px;
+}
+
+#coluna-direita .newsletter input[type=submit] {
+    margin: 0 auto;
+    background-color: #024F84;
+    width: 60px;
+    height: 20px;
+    border-radius: 2px;
+    text-align: center;
+    color: white;
+    border: 0px;
+    font-size: 11px;
+}
+
+
+/* COLUNA DA DIREITA - COTAÇÕES */
+
+#coluna-direita .box-cotacao {
+    width: 190px;
+    height: 105px;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    float: right;
+    padding: 10px;
+    position: relative;
+
+
+}
+
+#coluna-direita .titulo-cotacoes {
+    color: #666666;
+    font-family: UniversBold;
+    font-size: 12px;
+    margin: 0px 0px 10px 0px;
+}
+
+#coluna-direita .cotacao {
+    color: #004d81;
+    font-size: 13px;
+    margin: 0px;
+    height: 60px;
+}
+
+#coluna-direita .fonte-cotacoes {
+    font-size: 9px;
+    margin: 0px;
+    color: #808080;
+}

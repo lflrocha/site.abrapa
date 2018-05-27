@@ -1,0 +1,384 @@
+
+
+
+
+
+
+
+
+
+
+
+
+/* DESTAQUES PRINCIPAIS */
+
+#destaque-principal {
+    clear:both;
+    margin-bottom: 10px;
+}
+
+#destaque-principal .manchete {
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(#FFFFFF, #eeeeee);
+    border-radius: 0 0 5px 5px;
+    margin-top: -5px;
+}
+
+#destaque-principal .bullets {
+    margin: 10px 0px;
+    text-align: center;
+}
+
+#destaque-principal p {
+    color: #666666;
+    font-size: 125%;
+    text-align: center;
+    padding: 0 120px;
+    line-height: 20px;
+    margin: 5px 0 0 0;
+}
+
+
+
+/* COLUNA DA ESQUERDA */
+
+#coluna-esquerda {
+    width: 780px;
+    height: 100%;
+    float: left;
+}
+
+
+/* COLUNA DA ESQUERDA - QUALIDADE, SUSTENTABILIDADE, RASTREABILIDADE */
+
+#coluna-esquerda .qualidade,
+#coluna-esquerda .sustentabilidade,
+#coluna-esquerda .rastreabilidade {
+    width: 250px;
+    margin-right: 10px;
+    float: left;
+}
+
+#coluna-esquerda .qualidade .titulo {
+    background-color: #004d81;
+}
+
+#coluna-esquerda .sustentabilidade .titulo {
+    background-color: #477626;
+}
+
+#coluna-esquerda .rastreabilidade .titulo {
+    background-color: #ffb80a;
+}
+
+#coluna-esquerda .box-200,
+#coluna-esquerda .box-280 {
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#coluna-esquerda .box-280 {
+    height: 280px;
+}
+
+#coluna-esquerda .box-200 {
+    height: 200px;
+}
+
+#coluna-esquerda .box-200 img {
+    margin: 10px 10px 0 10px;
+    border-radius: 5px;
+}
+
+#coluna-esquerda .titulo {
+    height: 22px;
+    background-color: #004d81;
+    margin-top: 0px;
+    border-radius: 5px 5px 0 0;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 7px;
+    font-family: UniversBold;
+    font-weight: normal;
+}
+
+#coluna-esquerda .manchete {
+    font-family: UniversBold;
+    color: #666666;
+    margin: 5px 10px;
+    font-weight: normal;
+}
+
+#coluna-esquerda .box-280 .manchete {
+    font-size: 14px;
+    min-height: 40px;
+}
+
+#coluna-esquerda .box-200 .manchete {
+    font-size: 14px;
+    min-height: 58px;
+}
+
+#coluna-esquerda .link {
+    margin: 0 10px;
+}
+
+#coluna-esquerda .link a {
+    font-family: Univers;
+    color: #666666;
+    text-decoration: none;
+}
+
+#coluna-esquerda .link a:hover {
+    color: #004d81;
+}
+
+#coluna-esquerda .barra-cinza {
+    background-color: #f2f2f2;
+    border: 0 none;
+    float: left;
+    height: 6px;
+    margin: 4px 0 14px;
+    width: 775px;
+}
+
+
+
+/* COLUNA DA ESQUERDA - ASSOCIADOS */
+
+#coluna-esquerda .associados {
+    width: 421px;
+    float: left;
+    border-right: #e6e6e6 1px dotted;
+    position: relative;
+    background-color: white;
+}
+
+#coluna-esquerda .box-associadas {
+    width: 410px;
+    height: 160px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+}
+
+#coluna-esquerda .box-associadas img {
+    margin: 20px 0 0 5px;
+}
+
+
+
+/* COLUNA DA ESQUERDA - COTAÇÕES */
+
+#coluna-esquerda .cotacoes {
+    width: 340px;
+    float: right;
+    margin-right: 10px;
+}
+
+#coluna-esquerda .box-cotacao {
+    width: 145px;
+    height: 105px;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    float: left;
+    padding: 10px;
+    position: relative;
+}
+
+#coluna-esquerda .box-cotacao:last-child {
+    float: right;
+}
+
+#coluna-esquerda .titulo-cotacoes {
+    color: #666666;
+    font-family: UniversBold;
+    font-size: 12px;
+    margin: 0px 0px 10px 0px;
+}
+
+#coluna-esquerda .cotacao {
+    color: #004d81;
+    font-size: 13px;
+    margin: 0px;
+    height: 60px;
+}
+
+#coluna-esquerda .fonte-cotacoes {
+    font-size: 9px;
+    margin: 0px;
+    color: #808080;
+}
+
+
+
+/* COLUNA DA DIREITA */
+
+#coluna-direita {
+    width: 218px;
+    height: 100%;
+    border-left: 1px solid #e6e6e6;
+    float: right;
+    height: 682px;
+}
+
+
+
+
+
+
+/* COLUNA DA DIREITA - HR */
+
+#coluna-direita hr {
+    width: 210px;
+    height:0;
+    border:0;
+    border-top: 1px dotted #e6e6e6;
+    float: right;
+}
+
+
+
+/* COLUNA DA DIREITA - SINDA */
+
+#coluna-direita .sinda {
+    width: 190px;
+    height: 120px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    float: right;
+    padding: 10px;
+    background: url("../imagens/sinda.png") repeat-x;
+}
+
+#coluna-direita .sinda .box {
+    width: 166px;
+    height: 55px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#coluna-direita .sinda .titulo {
+    color: #064d81;
+    font-family: HelveticaNeue;
+    font-size: 25px;
+    margin: 0px;
+}
+
+#coluna-direita .sinda p {
+    color: #064d81;
+    font-family: HelveticaNeue;
+    font-size: 11px;
+    margin: 0px;
+}
+
+#coluna-direita .sinda .botao {
+    background-color: #064d81;
+    border-radius: 5px;
+    height: 17px;
+    margin: 15px auto 0;
+    padding-top: 4px;
+    text-align: center;
+    width: 60px;
+}
+
+#coluna-direita .sinda .botao a {
+    color: white;
+    font-family: Univers;
+    font-size: 11px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+
+
+/* COLUNA DA DIREITA - NÚMEROS */
+
+#coluna-direita .numeros {
+    width: 190px;
+    height: 105px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    float: right;
+    padding: 10px;
+    background: url("../imagens/icon_grafico.png") no-repeat 90% 15%;
+    position:relative;
+    background-color: white;
+}
+
+#coluna-direita .numeros .titulo {
+    color: #064d81;
+    font-size: 19px;
+    margin: 10px 0;
+}
+
+#coluna-direita .numeros p {
+    color: #808080;
+    font-size: 11px;
+    margin: 0px;
+    width: 130px;
+}
+
+#coluna-direita .numeros .link {
+    margin-top: 10px;
+}
+
+#coluna-direita .numeros a {
+    color: #004d81;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+#coluna-direita .numeros a:hover {
+    color: #808080;
+}
+
+#ticker {
+    background-color: #5d5d5d;
+    float: right;
+    height: 20px;
+    margin-top: -29px;
+    padding-top: 8px;
+    width: 550px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+#ticker p {
+    color: white;
+    font-family: UniversBold;
+    font-size: 10px;
+    display: inline;
+    padding-right: 10px;
+}
+
+
+
+/* Box shadow */
+
+#coluna-direita .redes-sociais:after,
+#coluna-direita .congresso:after,
+#coluna-direita .newsletter:after,
+#coluna-direita .numeros:after,
+#coluna-esquerda .associados:after,
+#coluna-esquerda .box-cotacao:after {
+    content:"";
+    position:absolute;
+    z-index:-1;
+    box-shadow:0 0 8px rgba(200,200,200,0.9);
+    bottom:0px;
+    left:10%;
+    right:10%;
+    width:80%;
+    height:10%;
+    -moz-border-radius:100%;
+    border-radius:100%;
+}
